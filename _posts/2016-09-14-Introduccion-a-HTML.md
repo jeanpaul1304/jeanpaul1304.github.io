@@ -25,7 +25,7 @@ HyperText Markup Language (lenguaje de marcas de hipertexto). Es un lenguaje de 
 
 ## HTML y HTML5
 
-Debido al veloz crecimiento de la web, [Tim Berners-Lee](https://es.wikipedia.org/wiki/Tim_Berners-Lee) identifico la necesidad de un estándar sobre el cual, la web pueda comunicarse, así nace HTML y partiendo de la primera versión de HTML (HTML 2.0) en cada versión se agrega nuevas normas sobre cuales son las etiquetas validas y cómo es que estas deben estar escritas. HTML5 no es más que un nuevo grupo de etiquetas que facilitan tareas que en HTML(4) eran algo tediosas.
+Debido al veloz crecimiento de la web, [Tim Berners-Lee](https://es.wikipedia.org/wiki/Tim_Berners-Lee){:target="_blank"} identifico la necesidad de un estándar sobre el cual, la web pueda comunicarse, así nace HTML y partiendo de la primera versión de HTML (HTML 2.0) en cada versión se agrega nuevas normas sobre cuales son las etiquetas validas y cómo es que estas deben estar escritas. HTML5 no es más que un nuevo grupo de etiquetas que facilitan tareas que en HTML(4) eran algo tediosas.
 
 ## Etiquetas básicas y estructura de un documento
 
