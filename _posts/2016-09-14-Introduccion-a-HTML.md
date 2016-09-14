@@ -1,12 +1,10 @@
 ---
 layout: post
 category : lessons
-tagline: "Supporting tagline"
+tagline: "Taller de programación Frontend Básico"
 tags : [html, beginner, frontend, tutorial]
 ---
 {% include JB/setup %}
-
-# Taller de programación Frontend Básico: HTML
 
 ## ¿Qué es HTML?
 
