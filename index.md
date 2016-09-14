@@ -5,13 +5,16 @@ tagline: Bienvenido a mi blog
 ---
 {% include JB/setup %}
 
-Este blog fue desarrollado con [Jekyll](http://jekyllbootstrap.com/usage/jekyll-quick-start.html) y [Jekyll Bootstrap](http://jekyllbootstrap.com), ademas corre sobre [github](http://github.com/)
+Hola, mi nombre es ~~jeanpaul1304~~ Jean Paul Diaz y soy un egresado de Ingenieria de Sistemas que se dedica al Desarrollador Frontend. Este blog es parte de algunas pruebas que estoy realizando con [Github Pages](http://pages.github.com/), [Jekyll](https://jekyllrb.com/), mientras aprendo algo de [Markdown](https://es.wikipedia.org/wiki/Markdown).
 
+Ustedes tambien puede generar un blog como este siguiendo esta  [Guia rapida de Jekyll](http://jekyllbootstrap.com/usage/jekyll-quick-start.html) o usando [Jekyll Bootstrap](http://jekyllbootstrap.com).
 
-## Publicaciones
+## Últimas Publicaciones
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+  <h3>
+    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+  </h3>
+  {{ post.date | date_to_string }}
+  </li>
+{% endfor %}
