@@ -5,7 +5,7 @@ tagline: Bienvenido a mi blog
 ---
 {% include JB/setup %}
 
-Hola, mi nombre es ~~jeanpaul1304~~ Jean Paul Diaz y soy un egresado de Ingenieria de Sistemas que se dedica al Desarrollador Frontend. Este blog es parte de algunas pruebas que estoy realizando con [Github Pages](http://pages.github.com/), [Jekyll](https://jekyllrb.com/), mientras aprendo algo de [Markdown](https://es.wikipedia.org/wiki/Markdown).
+Hola, mi nombre es ~~jeanpaul1304~~ Jean Paul Diaz y soy un egresado de Ingenieria de Sistemas que se dedica al Desarrollo Frontend. Este blog es parte de algunas pruebas que estoy realizando con [Github Pages](http://pages.github.com/) y [Jekyll](https://jekyllrb.com/), mientras aprendo algo de [Markdown](https://es.wikipedia.org/wiki/Markdown).
 
 Ustedes tambien puede generar un blog como este siguiendo esta  [Guia rapida de Jekyll](http://jekyllbootstrap.com/usage/jekyll-quick-start.html) o usando [Jekyll Bootstrap](http://jekyllbootstrap.com).
 
