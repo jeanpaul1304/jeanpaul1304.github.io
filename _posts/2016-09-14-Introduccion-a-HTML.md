@@ -8,7 +8,7 @@ tags : [html, beginner, frontend, tutorial]
 
 ## ¿Qué es HTML?
 
-HyperText Markup Language (lenguaje de marcas de hipertexto). Es un lenguaje de marcado, que se usa para definir diversos componentes de la web. Estos generalmente no tiene estilos y se muestran de diferentes maneras en diferentes versiones de navegador. Pero para nuestros fines practicos, estos solo se usaran para definir cada item de nuestra web.
+HyperText Markup Language (lenguaje de marcas de hipertexto). Es un lenguaje de marcado, que se usa para definir diversos componentes de la web. Estos generalmente no tiene estilos y se muestran de diferentes maneras en diferentes versiones de navegador. Pero para nuestros fines prácticos, estos solo se usaran para definir cada ítem de nuestra web.
 
 ### Terminos y definiciones
 
@@ -19,7 +19,7 @@ HyperText Markup Language (lenguaje de marcas de hipertexto). Es un lenguaje de 
 <!-- Atributos: class, id -->
 ```
 
-**Etiquetas:** Son fragmentos de texto rodeados por corchetes angular o simbolos de mayor/menor (<>) que definen el inicio o el final de de un elemento HTML
+**Etiquetas:** Son fragmentos de texto rodeados por corchetes angular o símbolos de mayor/menor (<>) que definen el inicio o el final de de un elemento HTML
 
 **Atributos:** Son valores adicionales que configuran los elementos HTML acuerdo a las necesidades del cliente. Tienen funcionalidades limitadas y funcionan distinto en diferentes navegadores.
 
@@ -27,7 +27,7 @@ HyperText Markup Language (lenguaje de marcas de hipertexto). Es un lenguaje de 
 
 Debido al veloz crecimiento de la web, [Tim Berners-Lee](https://es.wikipedia.org/wiki/Tim_Berners-Lee) identifico la necesidad de un estándar sobre el cual, la web pueda comunicarse, así nace HTML y partiendo de la primera versión de HTML (HTML 2.0) en cada versión se agrega nuevas normas sobre cuales son las etiquetas validas y cómo es que estas deben estar escritas. HTML5 no es más que un nuevo grupo de etiquetas que facilitan tareas que en HTML(4) eran algo tediosas.
 
-## Etiquetas basicas y estructura de un documento
+## Etiquetas básicas y estructura de un documento
 
 La estructura de nuestro documento HTML inicial debe ser el siguiente:
 
@@ -44,12 +44,12 @@ La estructura de nuestro documento HTML inicial debe ser el siguiente:
 </html>
 ```
 
- El elemento raiz ```<!doctype html>``` le comunica a nuestro navegador que estamos usando HTML5.
+ El elemento raíz ```<!doctype html>``` le comunica a nuestro navegador que estamos usando HTML5.
 
 La etiqueta ```<html></html>``` es la que engloba todo el contenido de nuestra pagina, todas las demás etiquetas deberán estar dentro de esta.
 
 #### HEAD y Metadata
-La etiqueta ```<head></head>``` representa a una coleccion de metadatos acerca de nuestro documento, incluyendo definicion de titulo, enlaces de scripts, autores, escrituras de estilos y cualquier otro metadato.
+La etiqueta ```<head></head>``` representa a una colección de metadatos acerca de nuestro documento, incluyendo definición de titulo, enlaces de scripts, autores, escrituras de estilos y cualquier otro metadato.
 
 **Metadato:** Datos que describen a otros datos.
 
@@ -72,16 +72,16 @@ La etiqueta ```<body></body>``` representa al contenido principal del documento 
 </body>
 ```
 ## Secciones
-Las etiquetas de secciones sirven para enmarcar partes de nuestra web que suelen ser bloques. *Recordatorio: En clase comentamos que algunas de estas no existian en la anterior versión de html ya que eran representadas con un div con la clase header y footer por ejemplo ```<div class="header"></div>``` y que algunos de estos fueron reemplazados por lo que representaban para hacer mas semantica la web ```<header></header>```*
+Las etiquetas de secciones sirven para enmarcar partes de nuestra web que suelen ser bloques. *Recordatorio: En clase comentamos que algunas de estas no existían en la anterior versión de html ya que eran representadas con un div con la clase header y footer por ejemplo ```<div class="header"></div>``` y que algunos de estos fueron reemplazados por lo que representaban para hacer mas semántica la web ```<header></header>```*
 
 ```html
 <section></section> <!--Define una sección-->
 
-<header></header> <!--Define la cabecera de una pagina. Contiene generalmente el titulo,logotivo y navegación-->
+<header></header> <!--Define la cabecera de una pagina. Contiene generalmente el titulo, logotipo y navegación-->
 
 <nav></nav> <!--Define una sección con links de navegación-->
 
-<article></article> <!-- Define un articulo, que podria ser migrado individualmente. Una publicación de un blog por ejemplo-->
+<article></article> <!-- Define un articulo, que podría ser migrado individualmente. Una publicación de un blog por ejemplo-->
 
 <aside></aside><!--Define secciones generalmente laterales de la web-->
 
@@ -94,7 +94,7 @@ Las etiquetas de secciones sirven para enmarcar partes de nuestra web que suelen
 <h5></h5> <!--Titulos y subtitulos-->
 <h6></h6> <!--Titulos y subtitulos-->
 
-<div></div> <!--Representa un contenedor generico-->
+<div></div> <!--Representa un contenedor genérico-->
 ```
 
 ## Agrupadores de contenido
@@ -153,7 +153,7 @@ Los agrupadores de contenido consideran elementos como los listados sin orden y 
 </blockquote>
 
 ## Texto
-HTML nos permite manejar texto como lo haria un editor de texto cualquiera como por ejemplo *Microsoft Word*, con las facilidades para usar negrita (```<b></b>``` o ```<strong></strong>```), saltos de linea con la etiqueta ```<br>```  e hipervinculos ```<a></a>```.
+HTML nos permite manejar texto como lo haría un editor de texto cualquiera como por ejemplo *Microsoft Word*, con las facilidades para usar negrita (```<b></b>``` o ```<strong></strong>```), saltos de linea con la etiqueta ```<br>```  e hipervinculos ```<a></a>```.
 
 ```html
 <a href="http://www.google.com">Google</a><!--Link a google-->
@@ -179,7 +179,7 @@ El manejo de contenido multimedia ha sido un problema en versiones anteriores de
 
 <iframe src="http://ruta-de-iframe.com/" width="200" height="300">
   Texto en caso iframe no cargue.
-  Recordar solo usar iframe, si las rutas a las que referencia estan preparadas para usarse como iframe, de lo contrario evitar ya que generará una mala experiencia de usuario.
+  Recordar solo usar iframe, si las rutas a las que referencia están preparadas para usarse como iframe, de lo contrario evitar ya que generará una mala experiencia de usuario.
 </iframe>
 
 <video src="archivo-de-video.ogg" autoplay controls poster="posterimage.jpg">
@@ -190,7 +190,7 @@ El manejo de contenido multimedia ha sido un problema en versiones anteriores de
 ```
 
 ## Tablas
-Las tablas son un recurso valido para mostrar datos que necesitan ser tabulados u ordenados de algun modo. HTML nos permite trabajar con cabeceras de tablas, pie de tabla, titulos de tabla y la tabla en si.
+Las tablas son un recurso valido para mostrar datos que necesitan ser tabulados u ordenados de algún modo. HTML nos permite trabajar con cabeceras de tablas, pie de tabla, títulos de tabla y la tabla en si.
 
 Una tabla esta generalmente constituida por filas y columnas, que son representadas por etiquetas ```<tr></tr>``` para definir filas y ```<th></th>``` para definir celdas como cabeceras de tabla y ```<td></td>``` para definir una celda dentro de una fila. Ejm:
 
@@ -215,7 +215,7 @@ Una tabla esta generalmente constituida por filas y columnas, que son representa
 </table>
 ```
 
-Podrias repetir mas filas a lo largo de la tabla para representar los datos necesario y obtendriamos lo siguiente:
+Podrías repetir mas filas a lo largo de la tabla para representar los datos necesario y obtendríamos lo siguiente:
 
 <table> <!-- Apertura de tabla -->
   <tr> <!-- inicio de fila -->
@@ -237,16 +237,16 @@ Podrias repetir mas filas a lo largo de la tabla para representar los datos nece
 </table>
 
 ## Formularios y componentes
-El formulario es un elemento que se usa para enviar información al servidor, este se representa por la etiqueta ```<form></form>``` y contiene una serie de componentes que contienen valores. Los atributos de esta etiqueta necesarios para enviar informacion son el metodo y el action. El action es la ruta hacia la que va dirigida el contenido del formulario y el metodo es la forma en que este lo enviar, los mas comunes son 2, POST y GET: POST para crear o modificar data y GET para obtener data. ```<form action='/contacto.php' method='POST'>``` .
+El formulario es un elemento que se usa para enviar información al servidor, este se representa por la etiqueta ```<form></form>``` y contiene una serie de componentes que contienen valores. Los atributos de esta etiqueta necesarios para enviar información  son el método y el action. El action es la ruta hacia la que va dirigida el contenido del formulario y el método es la forma en que este lo enviar, los mas comunes son 2, POST y GET: POST para crear o modificar data y GET para obtener data. ```<form action='/contacto.php' method='POST'>``` .
 
 Las etiquetas mas comunes que usaremos dentro de un form son:
-  * **label**: Este representa al titulo de un control y hace referencia mediente el atributo ```for```, que apuntara al id del control.
-  * **input**: Este es el control mas comun y representa a un campo de entrada de valores
+  * **label**: Este representa al titulo de un control y hace referencia mediante el atributo ```for```, que apuntara al id del control.
+  * **input**: Este es el control mas común y representa a un campo de entrada de valores
   * **select**: Es un control que permite seleccionar dentro de un conjunto de opciones y trabaja con la etiqueta ```<option></option>```
   * **textarea**: Controlador de texto multilinea
   * **button**: Representa un boton
 
-Cada una de estas etiquetas html, a excepcion de ```label```, debera tener un nombre y un valor.
+Cada una de estas etiquetas html, a excepción de ```label```, deberá tener un nombre y un valor.
 
 ```html
 <form action="index.html" method="post">
@@ -291,14 +291,14 @@ Resultado:
 
 **Duplicidad de ID**: Otro de los errores comunes es usar el mismo valor del atributo ID a diferentes elementos. Si se requiere hacer referencia a 2 elementos similares o iguales, se deberá usar el atributo clase y no el mismo ID
 
-**No cruzar etiquetas**: Las etiquetas no deberan intersectarse, sino contener una a otra. El codigo siguiente es un error ```<p>hola <a>link</p></a>```, la forma correcta es ```<p>hola <a>link</a></p>```.
+**No cruzar etiquetas**: Las etiquetas no deberán interceptarse, sino contener una a otra. El código siguiente es un error ```<p>hola <a>link</p></a>```, la forma correcta es ```<p>hola <a>link</a></p>```.
 
-**Duplicar elementos BODY o HEAD**: Estos elementos deberan ser unicos en nuestro documento HTML y además deberá seguir con el orden mencionnado anteiormente para cumplir los estadares.
+**Duplicar elementos BODY o HEAD**: Estos elementos deberían ser únicos en nuestro documento HTML y además deberá seguir con el orden mencionado anteriormente para cumplir los estandares.
 
-**Usar iFrames**: El uso de iframes esta permitido, pero es un error utilizar una URL que no esta preparada para ser usada como iframe, ya que estos generarán una pesima experiencia al usuario, muchas veces es mejor redirigirlos a la web a la que queremos hacer referencia. Ejemplos de web que si estan preparadas para ser usadas como frames: Contenidos incrustados de Youtube, Vimeo. Plugins de Timeline de Twitter o Instagram.
+**Usar iFrames**: El uso de iframes esta permitido, pero es un error utilizar una URL que no esta preparada para ser usada como iframe, ya que estos generarán una pesima experiencia al usuario, muchas veces es mejor redirigirlos a la web a la que queremos hacer referencia. Ejemplos de web que si están preparadas para ser usadas como frames: Contenidos incrustados de Youtube, Vimeo. Plugins de Timeline de Twitter o Instagram.
 
 ## Practicar
-Para comprobar que estamos reconociendo las etiquetas correctamente, deberemos ir a las siguientes web e identificar todos los elementos posibles que hemos repasado en este articulo, estos serán consultados la proxima clase a modo de practica ya que es muy importante reconocer los elementos HTML para comenzar a maquetar.
+Para comprobar que estamos reconociendo las etiquetas correctamente, deberemos ir a las siguientes web e identificar todos los elementos posibles que hemos repasado en este articulo, estos serán consultados la próxima clase a modo de practica ya que es muy importante reconocer los elementos HTML para comenzar a aplicar CSS.
 
 Identificar los elementos de las siguientes webs:
 
@@ -308,3 +308,5 @@ Identificar los elementos de las siguientes webs:
   * https://github.com/ Sin login y con Login
   * https://www.facebook.com Sin login y con Login
   * https://www.linio.com.pe/
+
+Diviértanse mientras ubican las etiquetas y regresen a este documento de referencia para mas información o también  a las web de referencia de la [w3c](http://www.w3schools.com/tags/) donde podrán encontrar ejemplos, nos vemos el sábado!
