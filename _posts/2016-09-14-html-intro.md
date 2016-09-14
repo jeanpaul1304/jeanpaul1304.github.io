@@ -78,17 +78,24 @@ Las etiquetas de secciones sirven para enmarcar partes de nuestra web que suelen
 
 ```html
 <section></section> <!--Define una sección-->
+
 <header></header> <!--Define la cabecera de una pagina. Contiene generalmente el titulo,logotivo y navegación-->
+
 <nav></nav> <!--Define una sección con links de navegación-->
+
 <article></article> <!-- Define un articulo, que podria ser migrado individualmente. Una publicación de un blog por ejemplo-->
+
 <aside></aside><!--Define secciones generalmente laterales de la web-->
+
 <footer></footer><!--El pie de pagina-->
+
 <h1></h1> <!--Titulos y subtitulos-->
 <h2></h2> <!--Titulos y subtitulos-->
 <h3></h3> <!--Titulos y subtitulos-->
 <h4></h4> <!--Titulos y subtitulos-->
 <h5></h5> <!--Titulos y subtitulos-->
 <h6></h6> <!--Titulos y subtitulos-->
+
 <div></div> <!--Representa un contenedor generico-->
 ```
 
@@ -97,7 +104,9 @@ Los agrupadores de contenido consideran elementos como los listados sin orden y 
 
 ```html
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc...</p> <!--Parrafo-->
+
 <hr> <!--Quiebre de linea-->
+
 <ul>
   <li>Elemento 1</li> <!--Elemento de lista-->
   <li>Elemento 2</li> <!--Elemento de lista-->
@@ -126,7 +135,9 @@ HTML nos permite manejar texto como lo haria un editor de texto cualquiera como 
 
 ```html
 <a href="http://www.google.com">Google</a><!--Link a google-->
+
 <strong>Texto en negrita</strong>
+
 <code>
   <h1>Hola mundo</h1>
 </code>
@@ -134,6 +145,7 @@ HTML nos permite manejar texto como lo haria un editor de texto cualquiera como 
 <!--Representa codigo como texto, no es interpretado-->
 
 <span>Texto</span> <!--Texto sin significado relevante o especifico-->
+
 <br> <!--Salto de linea-->
 ```
 
@@ -142,12 +154,15 @@ El manejo de contenido multimedia ha sido un problema en versiones anteriores de
 
 ```html
 <img src="http://rutadeimage.com/imagen.jpg" alt="Texto en caso no cargue la imagen" />
+
 <iframe src="http://ruta-de-iframe.com/" width="200" height="300">
   Texto en caso iframe no cargue.
   Recordar solo usar iframe, si las rutas a las que referencia estan preparadas para usarse como iframe, de lo contrario evitar ya que generará una mala experiencia de usuario.
 </iframe>
+
 <video src="archivo-de-video.ogg" autoplay controls poster="posterimage.jpg">
   Aqui deberá ir el contenido en caso el video no cargue
 </video>
+
 <audio src="ruta-audio.mp3"></audio>
 ```
