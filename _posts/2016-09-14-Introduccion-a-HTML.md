@@ -8,7 +8,7 @@ tags : [html, beginner, frontend, tutorial]
 
 ## ¿Qué es HTML?
 
-HyperText Markup Language (lenguaje de marcas de hipertexto). Es un lenguaje de marcado, que se usa para definir diversos componentes de la web. Estos generalmente no tiene estilos y se muestran de diferentes maneras en diferentes versiones de navegador. Pero para nuestros fines prácticos, estos solo se usaran para definir cada ítem de nuestra web.
+HyperText Markup Language (lenguaje de marcas de hipertexto). Es un lenguaje de marcado, que se usa para definir diversos componentes de la web. Estos generalmente no tiene estilos y se muestran de diferentes maneras en diferentes versiones de navegador. Pero para nuestros fines practicos, estos solo se usaran para definir cada item de nuestra web.
 
 ### Terminos y definiciones
 
@@ -19,7 +19,7 @@ HyperText Markup Language (lenguaje de marcas de hipertexto). Es un lenguaje de 
 <!-- Atributos: class, id -->
 ```
 
-**Etiquetas:** Son fragmentos de texto rodeados por corchetes angular o símbolos de mayor/menor (<>) que definen el inicio o el final de de un elemento HTML
+**Etiquetas:** Son fragmentos de texto rodeados por corchetes angular o simbolos de mayor/menor (<>) que definen el inicio o el final de de un elemento HTML
 
 **Atributos:** Son valores adicionales que configuran los elementos HTML acuerdo a las necesidades del cliente. Tienen funcionalidades limitadas y funcionan distinto en diferentes navegadores.
 
@@ -27,7 +27,7 @@ HyperText Markup Language (lenguaje de marcas de hipertexto). Es un lenguaje de 
 
 Debido al veloz crecimiento de la web, [Tim Berners-Lee](https://es.wikipedia.org/wiki/Tim_Berners-Lee) identifico la necesidad de un estándar sobre el cual, la web pueda comunicarse, así nace HTML y partiendo de la primera versión de HTML (HTML 2.0) en cada versión se agrega nuevas normas sobre cuales son las etiquetas validas y cómo es que estas deben estar escritas. HTML5 no es más que un nuevo grupo de etiquetas que facilitan tareas que en HTML(4) eran algo tediosas.
 
-## Etiquetas básicas y estructura de un documento
+## Etiquetas basicas y estructura de un documento
 
 La estructura de nuestro documento HTML inicial debe ser el siguiente:
 
@@ -44,12 +44,12 @@ La estructura de nuestro documento HTML inicial debe ser el siguiente:
 </html>
 ```
 
- El elemento raíz ```<!doctype html>``` le comunica a nuestro navegador que estamos usando HTML5.
+ El elemento raiz ```<!doctype html>``` le comunica a nuestro navegador que estamos usando HTML5.
 
 La etiqueta ```<html></html>``` es la que engloba todo el contenido de nuestra pagina, todas las demás etiquetas deberán estar dentro de esta.
 
 #### HEAD y Metadata
-La etiqueta ```<head></head>``` representa a una colección de metadatos acerca de nuestro documento, incluyendo definición de titulo, enlaces de scripts, autores, escrituras de estilos y cualquier otro metadato.
+La etiqueta ```<head></head>``` representa a una coleccion de metadatos acerca de nuestro documento, incluyendo definicion de titulo, enlaces de scripts, autores, escrituras de estilos y cualquier otro metadato.
 
 **Metadato:** Datos que describen a otros datos.
 
@@ -72,16 +72,16 @@ La etiqueta ```<body></body>``` representa al contenido principal del documento 
 </body>
 ```
 ## Secciones
-Las etiquetas de secciones sirven para enmarcar partes de nuestra web que suelen ser bloques. *Recordatorio: En clase comentamos que algunas de estas no existían en la anterior versión de html ya que eran representadas con un div con la clase header y footer por ejemplo ```<div class="header"></div>``` y que algunos de estos fueron reemplazados por lo que representaban para hacer mas semántica la web ```<header></header>```*
+Las etiquetas de secciones sirven para enmarcar partes de nuestra web que suelen ser bloques. *Recordatorio: En clase comentamos que algunas de estas no existian en la anterior versión de html ya que eran representadas con un div con la clase header y footer por ejemplo ```<div class="header"></div>``` y que algunos de estos fueron reemplazados por lo que representaban para hacer mas semantica la web ```<header></header>```*
 
 ```html
 <section></section> <!--Define una sección-->
 
-<header></header> <!--Define la cabecera de una pagina. Contiene generalmente el titulo, logotipo y navegación-->
+<header></header> <!--Define la cabecera de una pagina. Contiene generalmente el titulo,logotivo y navegación-->
 
 <nav></nav> <!--Define una sección con links de navegación-->
 
-<article></article> <!-- Define un articulo, que podría ser migrado individualmente. Una publicación de un blog por ejemplo-->
+<article></article> <!-- Define un articulo, que podria ser migrado individualmente. Una publicación de un blog por ejemplo-->
 
 <aside></aside><!--Define secciones generalmente laterales de la web-->
 
@@ -94,7 +94,7 @@ Las etiquetas de secciones sirven para enmarcar partes de nuestra web que suelen
 <h5></h5> <!--Titulos y subtitulos-->
 <h6></h6> <!--Titulos y subtitulos-->
 
-<div></div> <!--Representa un contenedor genérico-->
+<div></div> <!--Representa un contenedor generico-->
 ```
 
 ## Agrupadores de contenido
@@ -129,7 +129,7 @@ Los agrupadores de contenido consideran elementos como los listados sin orden y 
 ```
 
 ## Texto
-HTML nos permite manejar texto como lo haría un editor de texto cualquiera como por ejemplo *Microsoft Word*, con las facilidades para usar negrita (```<b></b>``` o ```<strong></strong>```), saltos de linea con la etiqueta ```<br>```  e hipervinculos ```<a></a>```.
+HTML nos permite manejar texto como lo haria un editor de texto cualquiera como por ejemplo *Microsoft Word*, con las facilidades para usar negrita (```<b></b>``` o ```<strong></strong>```), saltos de linea con la etiqueta ```<br>```  e hipervinculos ```<a></a>```.
 
 ```html
 <a href="http://www.google.com">Google</a><!--Link a google-->
@@ -147,7 +147,7 @@ HTML nos permite manejar texto como lo haría un editor de texto cualquiera como
 <br> <!--Salto de linea-->
 ```
 
-## Imagenes, multimedia y contenido incrustado
+## Imagenes, multimedia y contenido incrustado123123
 El manejo de contenido multimedia ha sido un problema en versiones anteriores de HTML, teniendo que requerir muchas veces a plugins exteriores como Flash y Java. Actualmente **html5** nos ha dado una facilidad de manejo de elementos como video, sonidos, elementos embebidos, canvas y svgs. Pero, no todo es color de rosa, ya que si bien es cierto se ha generado un gran avance al dejar de depender de plugins, aun debemos lidiar con las diversas especificaciones de los navegadores a la hora de implementar elementos como video y audio, ya que cada navegador utiliza un formato de archivo distinto.
 
 ```html
@@ -155,7 +155,7 @@ El manejo de contenido multimedia ha sido un problema en versiones anteriores de
 
 <iframe src="http://ruta-de-iframe.com/" width="200" height="300">
   Texto en caso iframe no cargue.
-  Recordar solo usar iframe, si las rutas a las que referencia están preparadas para usarse como iframe, de lo contrario evitar ya que generará una mala experiencia de usuario.
+  Recordar solo usar iframe, si las rutas a las que referencia estan preparadas para usarse como iframe, de lo contrario evitar ya que generará una mala experiencia de usuario.
 </iframe>
 
 <video src="archivo-de-video.ogg" autoplay controls poster="posterimage.jpg">
