@@ -240,10 +240,10 @@ Para comprobar que estamos reconociendo las etiquetas correctamente, deberemos i
 Identificar los elementos de las siguientes webs:
 
   * El contenido de este articulo
-  * http://www.google.com/
-  * http://galego.com.pe/
-  * https://github.com/ Sin login y con Login
-  * https://www.facebook.com Sin login y con Login
-  * https://www.linio.com.pe/
+  * [http://www.google.com/](http://www.google.com/)
+  * [http://galego.com.pe/](http://galego.com.pe/)
+  * [https://github.com/](https://github.com/) Sin login y con Login
+  * [https://www.facebook.com](https://www.facebook.com) Sin login y con Login
+  * [https://www.linio.com.pe/](https://www.linio.com.pe/)
 
 Diviértanse mientras ubican las etiquetas y regresen a este documento de referencia para mas información o también  a las web de referencia de la [w3c](http://www.w3schools.com/tags/) donde podrán encontrar ejemplos, nos vemos el sábado!
