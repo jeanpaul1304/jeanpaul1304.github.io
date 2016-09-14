@@ -128,30 +128,6 @@ Los agrupadores de contenido consideran elementos como los listados sin orden y 
 <!--Cita-->
 ```
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc...</p> <!--Parrafo-->
-
-<hr> <!--Quiebre de linea-->
-
-<ul>
-  <li>Elemento 1</li> <!--Elemento de lista-->
-  <li>Elemento 2</li> <!--Elemento de lista-->
-  <li>Elemento 3</li> <!--Elemento de lista-->
-</ul>
-
-<!--Lista sin orden -->
-
-<ol>
-  <li>Elemento 1</li> <!--Elemento de lista-->
-  <li>Elemento 2</li> <!--Elemento de lista-->
-  <li>Elemento 3</li> <!--Elemento de lista-->
-</ol>
-
-<!--Lista ordenada-->
-
-<blockquote>
-  "Free like a bird" - Nelson Mandela
-</blockquote>
-
 ## Texto
 HTML nos permite manejar texto como lo haría un editor de texto cualquiera como por ejemplo *Microsoft Word*, con las facilidades para usar negrita (```<b></b>``` o ```<strong></strong>```), saltos de linea con la etiqueta ```<br>```  e hipervinculos ```<a></a>```.
 
@@ -217,24 +193,6 @@ Una tabla esta generalmente constituida por filas y columnas, que son representa
 
 Podrías repetir mas filas a lo largo de la tabla para representar los datos necesario y obtendríamos lo siguiente:
 
-<table> <!-- Apertura de tabla -->
-  <tr> <!-- inicio de fila -->
-    <th> <!-- celda -->
-      Cabecera 1
-    </th>
-    <th> <!--celda-->
-      Cabecera 2
-    </th>
-  </tr>
-  <tr> <!-- inicio de fila -->
-    <td> <!-- celda -->
-      Celda 1
-    </td>
-    <td> <!--celda-->
-      Celda 2
-    </td>
-  </tr>
-</table>
 
 ## Formularios y componentes
 El formulario es un elemento que se usa para enviar información al servidor, este se representa por la etiqueta ```<form></form>``` y contiene una serie de componentes que contienen valores. Los atributos de esta etiqueta necesarios para enviar información  son el método y el action. El action es la ruta hacia la que va dirigida el contenido del formulario y el método es la forma en que este lo enviar, los mas comunes son 2, POST y GET: POST para crear o modificar data y GET para obtener data. ```<form action='/contacto.php' method='POST'>``` .
@@ -264,27 +222,6 @@ Cada una de estas etiquetas html, a excepción de ```label```, deberá tener un 
   <button type="submit" name="button">Enviar</button>
 </form>
 ```
-
-Resultado:
-
-<br/>
-<form action="index.html" method="post">
-  <label for="texto">Ingrese texto:</label>
-
-  <input type="text" name="name" id="texto" value="">
-  <br>
-
-  <select name="combo">
-    <option value="option1">Opcion 1</option>
-    <option value="option2">Opcion 2</option>
-  </select>
-  <br>
-
-  <textarea name="textarea" rows="8" cols="40"></textarea>
-  <br>
-
-  <button type="submit" name="button">Enviar</button>
-</form>
 
 ## Solución de problemas: Errores comunes
 **Rutas de referencia**: Uno de los errores mas comunes al etiquetar nuestro HTML se da al referenciar recursos que no existen o que se encuentran en una ubicación distinta a la ingresada, es por ello que si algo se comporta extraño y hay involucrado un recurso externo, es mejor comenzar a revisar si el elemento existe y la ruta esta bien definida.
