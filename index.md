@@ -12,8 +12,9 @@ Ustedes tambien puede generar un blog como este siguiendo esta  [Guia rapida de 
 ## Últimas Publicaciones
 
 {% for post in site.posts %}
-  <span>{{ post.date | date_to_string }}</span>
+
   <h4>
-    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> -
+    <span style="font-size:12px;">{{ post.date | date_to_string }}</span>
   </h4>
 {% endfor %}
