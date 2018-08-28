@@ -7,85 +7,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
   <!-- <script src="main.js"></script> -->
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Halant|Merienda+One');
-    /*font-family: 'Merienda One', cursive;*/
-    /*font-family: 'Halant', serif;*/
-    /*font-family: 'Didact Gothic', sans-serif;*/
-    * {
-      box-sizing: border-box;
-    }
-    :root {
-      --color-main: #EEE9D1;
-      --color-secondary: #72A7A3;
-      --color-highligths: #FFD57E;
-      --color-highligths2: #7998C9;
-      --color-highligths3: #89C7B6;
-      --color-bg: #0A1C28;
-    }
-    h1 {
-      font-family: 'Merienda One', cursive;
-      font-weight: 200;
-      font-size: 4em;
-      color: var(--color-main);
-      margin: 0;
-    }
-    h1 span{
-      font-weight: 800;
-      color: var(--color-secondary);
-    }
-    .first {
-      color: var(--color-highligths);
-    }
-    .second {
-      color: var(--color-highligths2);
-    }
-    .third {
-      color: var(--color-highligths3);
-    }
-    i {
-      font-style: normal;
-      font-family: 'Halant', serif;
-      font-size: 1.2em;
-    }
-    html { height: 100%; }
-    body {
-      background: var(--color-bg);
-      color: var(--color-main);
-      min-height: 100%;
-      margin: 0;
-    }
-    .title-container {
-      display: grid;
-      grid-template-columns: 80% 20%;
-      grind-template-rows: 10% 50% auto;
-      padding: 8px;
-      height: 100vh;
-      box-sizing: border-box;
-    }
-    .title {
-      grid-row-start: 2;
-      padding-left: 15px;
-    }
-    i{
-      grid-row-start: 2;
-      text-align: right;
-      padding-right: 12px;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="/main.css">
 </head>
 <body>
-  <div class="title-container">
-    <div class="title">
-      <h1>
-        Awesome Web Development using
-        <span class="first">HTML5</span>,
-        <span class="second">CSS3</span> and
-        <span class="thrid">JS</span>.</h1>
+    <div id="scene">
+        <div class="bg-main" data-depth="0.2"></div>
     </div>
-    <i>Hi! My name is Jean Paul Diaz.
-      I'm a <b>frontend</b> web developer based in
-      <b>Lima, Peru</b> and I'd like to help you build your next project.</i>
-  </div>
+
+    <div class="title-container">
+        <div class="title">
+            <h1>
+                Awesome Web Development using
+                <span class="first">HTML5</span>,
+                <span class="second">CSS3</span> and
+                <span class="thrid">JS</span>.</h1>
+        </div>
+        <i class="description">Hi! My name is Jean Paul Diaz.
+            I'm a <b>frontend</b> web developer based in
+            <b>Lima, Peru</b> and I'd like to help you build your next project.</i>
+    </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script src="/index.js"></script>
 </body>
 </html>
