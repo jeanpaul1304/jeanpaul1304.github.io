@@ -10,13 +10,15 @@
   <link rel="stylesheet" type="text/css" href="/main.css">
 </head>
 <body>
+    <canvas id="animation"></canvas>
     <div id="scene">
         <div class="bg-main" data-depth="0.4"></div>
-        <div class="dot dot1" data-depth="4"></div>
-        <div class="dot dot2" data-depth="6"></div>
-        <div class="dot dot3" data-depth="1"></div>
-        <div class="dot dot4" data-depth="3"></div>
-        <div class="dot dot5" data-depth="2"></div>
+        <!--<div class="dot dot1" data-depth="1"></div>-->
+        <!--<div class="dot dot2" data-depth="2"></div>-->
+        <!--<div class="dot dot3" data-depth="3"></div>-->
+        <!--<div class="dot dot4" data-depth="4"></div>-->
+        <!--<div class="dot dot5" data-depth="5"></div>-->
+        </div>
     </div>
 
     <div class="title-container">
@@ -27,11 +29,17 @@
                 <span class="second">CSS3</span> and
                 <span class="thrid">JS</span>.</h1>
         </div>
-        <i class="description">Hi! My name is Jean Paul Diaz.
-            I'm a <b>frontend</b> web developer based in
-            <b>Lima, Peru</b> and I'd like to help you build your next project.</i>
+        <i class="description">Hi! My name is <b class="first">Jean Paul Diaz</b>.
+            I'm a <b class="second">frontend</b> web developer based in
+            <b class="third">Lima, Peru</b> and I'd like to help you build your next project.
+            <p class="contact">
+                <a href="mailto:jeanpaul1304@gmail.com">📧 jeanpaul1304@gmail.com</a> <br/>
+                <a href="phone:+51989712993">📞 +51989712993</a>
+            </p>
+        </i>
     </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-  <script src="/index.js"></script>
+    <script src="/index.js"></script>
+    <script src="/canvas.js"></script>
 </body>
 </html>

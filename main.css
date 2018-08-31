@@ -59,6 +59,7 @@ body {
     top: 0;
     left: 0;
     max-width: 100%;
+    z-index: 99;
 }
 .title {
     padding-left: 15px;
@@ -66,6 +67,17 @@ body {
 .description{
     text-align: right;
     padding-right: 12px;
+    font-family: 'Didact Gothic', arial, sans-serif;
+}
+.description a {
+    color: var(--color-main);
+    background: rgba(137, 199, 182, .5);
+    border-radius: 3px;
+    padding: 1px 8px;
+}
+.description b {
+    font-size: 20px;
+    font-weight: 800;
 }
 
 .title, .description {
@@ -87,7 +99,10 @@ body {
     overflow: hidden;
     max-height: 100vh;
 }
-
+.ctn-dot{
+    position: absolute;
+    top: 10px;
+}
 .dot {
     width: 25px;
     height: 25px;
@@ -96,6 +111,7 @@ body {
     left: 0;
     right: 0;
     margin: 0 auto;
+    top: 200px;
 }
 .dot1{
     background: #72A7A3;
@@ -129,4 +145,8 @@ body {
         margin: 0;
         padding: 0 12px;
     }
+}
+#animation {
+    position: absolute;
+    z-index: 1;
 }
