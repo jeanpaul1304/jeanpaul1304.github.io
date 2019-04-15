@@ -36,7 +36,6 @@ function animate () {
     ctx.closePath();
     ctx.stroke();
     counter++
-    console.log(counter)
 }
 function clean () {
     console.log('clean')

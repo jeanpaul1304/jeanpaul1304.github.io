@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="utf-8" />
+  <link rel="manifest" href="/manifest.json">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>I'm Jean P. Diaz</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,7 +40,14 @@
         </i>
     </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-    <script src="/index.js"></script>
-    <script src="/canvas.js"></script>
+  <script src="/index.js"></script>
+  <script src="/canvas.js"></script>
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+          .register('/sw.js')
+          .then(function() { console.log("Service Worker Registered"); });
+    }
+  </script>
 </body>
 </html>
