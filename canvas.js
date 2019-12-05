@@ -1,31 +1,21 @@
-let canvas = document.querySelector('#animation')
+const canvas = document.querySelector('#animation')
+let start = null
+canvas.width = window.innerWidth + 200
+canvas.height = window.innerHeight + 200
 
-canvas.width = window.innerWidth
-canvas.height = window.innerHeight
-
-var context = canvas.getContext('2d')
-
-// context.fillRect(200, 200, 100, 100)
-
-for (let i = 0; i < (Math.random() * 1000); i++) {
-}
-counter = 0
+const context = canvas.getContext('2d')
+let counter = 0
 function animate () {
-    requestAnimationFrame(animate)
-    // console.log('wut?')
-
-    let x = Math.random() * window.innerWidth
-    let y = Math.random() * window.innerHeight
+    let x = Math.random() * (window.innerWidth + 400)
+    let y = Math.random() * (window.innerHeight + 400)
     context.beginPath()
     context.arc(x, y, 30, 0, Math.PI * 3, false)
     context.strokeStyle = 'blue'
-    // context.stroke()
 
     var ctx = canvas.getContext('2d');
     let a = Math.random() * window.innerWidth
     let b = Math.random() * window.innerHeight
     ctx.beginPath();
-    // ctx.moveTo(a*100, b*100);
     ctx.lineTo(a+20, b+10);
     ctx.lineTo(a+40, b+30);
     ctx.lineTo(a+30, b+50);
@@ -36,11 +26,16 @@ function animate () {
     ctx.closePath();
     ctx.stroke();
     counter++
+    if (counter < 500) {
+        requestAnimationFrame(animate)
+    } else {
+
+    }
 }
 function clean () {
     console.log('clean')
 }
-if (counter < 1000) {
+if (counter < 10) {
     animate()
 } else {
     clean()
