@@ -148,7 +148,7 @@ body {
     }
 }
 #animation {
-    position: absolute;
+    position: fixed;
     z-index: 1;
     left: -50px;
     top: -50px;
